@@ -1,0 +1,161 @@
+/* .container {
+    background: url(https://t4.ftcdn.net/jpg/06/67/44/27/360_F_667442793_kfrnD0eFvJkuMWi30uGwjw39ZTi40RQO.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+form {
+    z-index: 1000;
+    height: 60%;
+    width: 28%;
+    background: rgba(0, 0, 0, 0.2);
+    /* -webkit-backdrop-filter: blur(5px); */
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    display: block;
+    z-index: 1001;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    height: 2rem;
+    width: 80%;
+    margin: 1.5rem;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-top: -20px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 2.5rem 0;
+}
+
+p {
+    color: white;
+    margin-left: -20px;
+    font-size: 17px;
+}
+
+.remember input {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.forget {
+    margin-left: 4.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.end-content {
+    position: absolute;
+    left: 12%;
+}
+
+button {
+    height: 2.5rem;
+    width: 22rem;
+    border-radius: 20px;
+    background-color: white;
+    border: 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: black;
+}
+
+button:hover {
+    background-color: #e6d9ce;
+    cursor: pointer;
+}
+
+.end-content p {
+    padding-left: 55px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.end-content a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    z-index: 10001;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    top: 39%;
+    right: 39%;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+
+.username {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    font-size: 19px;
+    color: white;
+    transition: .3s ease;
+}
+
+.password {
+    transition: .3s ease;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    font-size: 19px;
+    color: white;
+}
+
+body {
+    zoom: 0.8;
+    background: url(https://images.unsplash.com/photo-1708334107222-95d8e5cc746b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
